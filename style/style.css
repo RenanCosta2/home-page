@@ -94,6 +94,7 @@ p{
 
 a{
     text-decoration: none;
+    user-select: none;
 }
 
 img{
@@ -101,4 +102,17 @@ img{
     width: 40%;
     margin: 80px 80px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.418);
+}
+
+@media screen and (width: 768px) {
+
+    body{
+    background-image: linear-gradient(to bottom, #f0db4f, #e44d26, #379ad6);
+    background-attachment: fixed;
+    }
+
+    .container{
+        height: 57.5vh;
+    }
+
 }
